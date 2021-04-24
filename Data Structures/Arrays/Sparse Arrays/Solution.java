@@ -13,7 +13,7 @@ public class Solution {
         HashMap<String, Integer> map  = new HashMap();
         for (int i = 0; i < N; i++) {
             String str = scan.nextLine();
-            map.merge(str, 1, Integer::sum);
+            map.merge(str, 1, Integer::sum); // error
         }
        
         /* Query HashMap */
